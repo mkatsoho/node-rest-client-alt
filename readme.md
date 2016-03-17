@@ -1,6 +1,8 @@
 **NOTE:** This is a cloned and alternative verison of node-rest-client, with below features
-- enable request logging (turn it on/off)
-- remove the first 11 chars in response if it is '&&&.....&&&'
+- enable request logging (including request log and other logs)
+turn it on in shell like this `DEBUG=NRC; export DEBUG`, 
+or turn if off like this `DEBUG="", export DEBUG`
+- remove the first 11 chars in response if it is '&&&.....&&&' and content-type is json
 
 
 
