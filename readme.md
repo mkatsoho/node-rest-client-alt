@@ -1,3 +1,9 @@
+**NOTE:** This is a cloned alternative verison of node-rest-client, with below feature
+- enable request logging (turn it on/off)
+- remove the first 9 chars in response if it is '&&&.....&&&'
+
+
+
 # REST Client for Node.js
 
 **NOTE:** _Since version 0.8.0 node does not contain node-waf anymore. The node-zlib package which node-rest-client make use of, depends on node-waf.Fortunately since version 0.8.0 zlib is a core dependency of node, so since version 1.0 of node-rest-client the explicit dependency to "zlib" has been removed from package.json. therefore if you are using a version below 0.8.0 of node please use a versión below 1.0.0 of "node-rest-client". _ 
