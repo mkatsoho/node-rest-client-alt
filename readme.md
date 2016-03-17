@@ -1,6 +1,6 @@
-**NOTE:** This is a cloned alternative verison of node-rest-client, with below feature
+**NOTE:** This is a cloned and alternative verison of node-rest-client, with below features
 - enable request logging (turn it on/off)
-- remove the first 9 chars in response if it is '&&&.....&&&'
+- remove the first 11 chars in response if it is '&&&.....&&&'
 
 
 
